@@ -38,7 +38,7 @@ const getOne = (id, cb) => {
 }
 const createOne = (newtopic, cb) => {
     const { title, description, timetomaster, timespent, source, startdate, inprogress, completiondate } = newtopic;
-    pool.query('INSERT INTO topics (title, description, timeToMaster, timeSpent, source, startDate, inProgress, completionDate) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)', 
+    pool.query('INSERT INTO topics (title, description, timetomaster, timespent, source, startdate, inprogress, completiondate) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)', 
     [title, description, timetomaster, timespent, source, startdate, inprogress, completiondate], (err, results) => {
         if (err) throw err; 
         console.dir(results);
