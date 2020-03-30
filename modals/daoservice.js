@@ -2,12 +2,14 @@ const Pool = require('pg').Pool;
 const debug = require('debug')('jatkuvaprojekti-eb:pgdao');
 // require('dotenv').config();
 
-// const USER = process.env.PGUSER;
-// const PASSWORD = process.env.PGPASSWORD;
+
+//Use .env file and fill in the details
+const USER = process.env.PGUSER;
+const PASSWORD = process.env.PGPASSWORD;
 
 const conopts = {
-    user: 'postgres',
-    password: 'Omena13!',
+    user: 'USER',
+    password: 'PASSWORD',
     host: 'suvi-jatkuvaprojektidb.ccxgt0pdrbak.eu-west-1.rds.amazonaws.com',
     database: 'postgres',
     port: 5432
