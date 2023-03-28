@@ -1,3 +1,3 @@
-# ContinuousExercise_NodeBackend, My Continuous Project / Week 6-9 Fullstack SPA Rest API with ReactJS, NodeJS, PostgreSQL &amp; AWS
+# ContinuousExercise_NodeBackend
 
- Continuous exercise Fullstack SPA Rest API, Node js backend
+ My Continuous Project / Week 6-9 Fullstack SPA Rest API with ReactJS, NodeJS, PostgreSQL, AWS
